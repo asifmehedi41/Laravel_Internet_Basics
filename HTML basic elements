@@ -1,0 +1,137 @@
+### **HTML Basic Elements**
+
+HTML (HyperText Markup Language) is the foundation of every webpage. It uses tags to structure and display content on the web. Here’s an overview of the essential elements:
+
+---
+
+#### **1. Basic Structure of an HTML Document**
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Webpage</title>
+</head>
+<body>
+    <h1>Welcome to HTML</h1>
+    <p>This is a basic HTML structure.</p>
+</body>
+</html>
+```
+- **`<!DOCTYPE html>`**: Declares the document type as HTML5.
+- **`<html>`**: Root element of the document.
+- **`<head>`**: Contains metadata like title, character set, and links to stylesheets.
+- **`<body>`**: Contains the content displayed on the page.
+
+---
+
+#### **2. Common HTML Elements**
+1. **Headings**
+   - Used to define headings, from `<h1>` (largest) to `<h6>` (smallest).
+   ```html
+   <h1>Main Heading</h1>
+   <h2>Subheading</h2>
+   ```
+
+2. **Paragraphs**
+   - Use `<p>` for blocks of text.
+   ```html
+   <p>This is a paragraph.</p>
+   ```
+
+3. **Links**
+   - Create hyperlinks with `<a>`.
+   ```html
+   <a href="https://example.com">Visit Example</a>
+   ```
+
+4. **Images**
+   - Display images with `<img>`.
+   ```html
+   <img src="image.jpg" alt="Description of Image">
+   ```
+
+5. **Lists**
+   - **Ordered List (`<ol>`):**
+     ```html
+     <ol>
+         <li>First Item</li>
+         <li>Second Item</li>
+     </ol>
+     ```
+   - **Unordered List (`<ul>`):**
+     ```html
+     <ul>
+         <li>Bullet Item</li>
+         <li>Another Item</li>
+     </ul>
+     ```
+
+6. **Tables**
+   - Organize data in rows and columns.
+   ```html
+   <table>
+       <tr>
+           <th>Name</th>
+           <th>Age</th>
+       </tr>
+       <tr>
+           <td>John</td>
+           <td>30</td>
+       </tr>
+   </table>
+   ```
+
+7. **Forms**
+   - Collect user input.
+   ```html
+   <form action="/submit" method="post">
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="name">
+       <button type="submit">Submit</button>
+   </form>
+   ```
+
+8. **Div and Span**
+   - **`<div>`:** Block-level container for grouping content.
+   - **`<span>`:** Inline container for styling text.
+   ```html
+   <div style="background-color: lightblue;">
+       This is a block element.
+   </div>
+   <span style="color: red;">This is inline.</span>
+   ```
+
+---
+
+#### **3. Attributes**
+Attributes add extra information to HTML elements.
+- **Common Attributes:**
+  - `id`: Unique identifier.
+  - `class`: For styling with CSS.
+  - `style`: Inline styling.
+  - `alt`: Alternative text for images.
+  ```html
+  <p id="intro" class="text-primary" style="font-size: 20px;">Styled Paragraph</p>
+  ```
+
+---
+
+#### **4. Semantic Elements**
+Semantic elements provide meaning to the content.
+- Examples: `<header>`, `<footer>`, `<article>`, `<section>`, `<nav>`.
+
+---
+
+#### **Practical Exercise:**
+1. Create an HTML file with:
+   - A heading (`<h1>`).
+   - Two paragraphs (`<p>`).
+   - An image (`<img>`).
+   - A link (`<a>`).
+   - An ordered list (`<ol>`).
+
+2. Use basic attributes like `id`, `class`, and `style` to format elements.
+
+---
+
+Let me know if you'd like examples or a walkthrough!
